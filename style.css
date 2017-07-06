@@ -1,0 +1,133 @@
+.header {
+    background: red; 
+    position: relative;
+    
+       
+}
+
+.menu { 
+    height: 20px;
+    float: right;
+    margin-right: 45px;
+
+}
+
+.menu a{
+    display: inline-block;
+    float: right;
+    width: 100px;
+    text-decoration: none ;
+    color:#00f;
+    margin: 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.menu a:hover,.left-menu a:hover{
+    color:greenyellow;
+    background-color: green;
+}
+
+.menu:last-child:after{
+    content: url(http://partecipazione.regione.emilia-romagna.it/++resource++iopartecipo.images/livello_partecipazione.png);
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    pointer-events: none;
+}
+
+
+footer{
+    background-image: url(http://s587474186.websitehome.co.uk/DailyCannon/wp-content/uploads/2014/01/london-is-red.jpg) ;
+    background-size: 100%;
+}
+
+.footer-bar-up {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom:  3px solid black;
+    margin-bottom: 10px;
+}
+    
+   
+.footer-links li {
+    list-style-type: none;
+    padding: 10px;  
+   }
+
+ a {
+     text-decoration: none ;
+     color: yellow;
+    
+   }
+
+.footer-links a:hover,.footer-bar-down a:hover  {
+     color:red;
+        }
+
+.footer-bar-down a{
+    padding: 10px;
+}
+.footer-bar-down{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main-container{
+    display:flex;
+    flex-direction: row;
+    background:red;
+   
+    
+}
+
+.left-menu{
+    display:flex;
+    flex-grow:1;    
+    flex-direction: column;
+    
+    
+   
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-grow:2;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: red;
+    border: 3px solid black;
+     
+}
+
+
+.left-menu a{
+    text-decoration: none ;
+    color:#00f;   
+    background:#abc;
+    padding: 5px 0 5px 10px;
+    text-align: left;
+    border: 3px solid #2fd;
+    width: 100px;    
+}
+
+
+.content-block{
+    width: 300px;
+    border: 5px solid #0f1; 
+    padding: 5px;
+    margin: 5px;   
+}
+
+ .content-block:nth-last-child(1)::before{
+    content: url(http://www.iconsearch.ru/uploads/icons/ecqlipse2/128x128/proevolutionsoccer.png);
+    float:left;
+}
+
+
